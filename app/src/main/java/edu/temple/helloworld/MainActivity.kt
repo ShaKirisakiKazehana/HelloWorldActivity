@@ -25,7 +25,7 @@ class MainActivity : AppCompatActivity() {
         nameEditText = findViewById(R.id.nameEditText)
         // Respond to button click event per specifications
         myButton.setOnClickListener{
-            displayMessageTextView.text = "Hello, $nameEditText.text"
+            displayMessageTextView.text = "Hello, " + nameEditText.text
         }
 
     }
